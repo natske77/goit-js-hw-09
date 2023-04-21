@@ -19,7 +19,7 @@ startButton.addEventListener('click', () => {
 
   intervalId = setInterval(() => {
     body.style.backgroundColor = getRandomHexColor();
-  }, 500);
+  }, 1000);
 });
 
 stopButton.addEventListener('click', () => {
