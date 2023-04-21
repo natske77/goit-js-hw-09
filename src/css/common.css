@@ -16,3 +16,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+.switcher-button__list {
+display: flex;
+justify-content: center;
+gap: 8px;
+}
+
+.switcher-button:hover {
+  background-color: #ffffff69;
+}
+
+.switcher-button {
+  background-color: #fff;
+  padding: 12px 26px;
+  border-radius: 8%;
+  cursor: pointer;
+  border: none;
+}
